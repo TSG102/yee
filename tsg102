@@ -1,0 +1,14 @@
+import math
+import cmath
+
+a = float(input("input real part "))
+b = float(input("input complex part "))
+c = a.real + 1j*b
+d = 1
+while d < 10000:
+       d = d + 1
+       c = c * c
+if a > 0.3 or a < -2 and abs(b)>1:
+    print("the number is not on the set")
+elif a < 0.3 or a > -2 and abs(b) < 1:
+    print("the number is on the set")
