@@ -8,7 +8,7 @@ d = 1
 while d < 10000:
        d = d + 1
        c = c * c
-if a > 0.3 or a < -2 and abs(b)>1:
+if a > 1 or a < 1 and abs(b)>1:
     print("the number is not on the set")
-elif a < 0.3 or a > -2 and abs(b) < 1:
+elif a < 1 or a > 1 and abs(b) < 1:
     print("the number is on the set")
